@@ -33,11 +33,7 @@ body {
   display: flex;
 }
 
-.nav-right {
-  width: 50%;
-  height: 100%;
-  display: flex;
-}
+
 
 .nav-left > ul {
   display: flex;
@@ -60,75 +56,24 @@ body {
   background-color: hotpink;
   cursor: pointer;
 }
-.search-box {
-  
-  width: 250px;
-  height: 30px;
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  margin-top: 5px;
-  margin-left: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-}
 
-.search-box > i {
-  font-size: 20px;
-  color: black;
-}
-
-.search-box > input {
-  flex: 1;
-  width: 190px;
-  height: 25px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  font-size: 18px;
-}
-
-.icon{
-    display: flex;
-    color: black;
-    margin-left: 50px;
-    
-}
-
-.icon>i {
-    display: flex;
-    padding: 10px;
-   font-size: 20px;
-}
-
-.item {
-  display: flex;
+ .nav-right {
+  width: 50%;
   height: 100%;
-  width: 150%;
-
-}
-.item > ul {
   display: flex;
-  gap: 20px;
-  list-style: none;
+}
+.nav-right ul {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
   align-items: center;
+  height: 100%;
 }
 
-.item ul li {
-  display: flex;
-  place-items: center;
-  padding: 5px 10px;
-  height: 100%;
-  font-size: 20px;
-  font-weight: bold;
+.nav-right ul li {
   text-transform: uppercase;
-  transition: all 0.5s ease;
-
-}
-
-.item ul li :hover {
-  background-color: white;
-  cursor: pointer;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 0 15px;
+  display: flex;
+  height: 100%;
+  font-weight: bold;
 }
