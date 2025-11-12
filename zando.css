@@ -12,6 +12,7 @@ body {
 .nav-bar {
   width: 100%;
   height: 100%;
+  background-color: #eee;
 }
 .navigation {
   width: 90%;
@@ -33,8 +34,6 @@ body {
   display: flex;
 }
 
-
-
 .nav-left > ul {
   display: flex;
   gap: 20px;
@@ -52,17 +51,17 @@ body {
   text-transform: uppercase;
   transition: all 0.5s ease;
 }
-.nav-left ul li :hover {
-  background-color: hotpink;
+.nav-left ul li:hover{
   cursor: pointer;
+  background-color: aqua;
 }
-
- .nav-right {
+.nav-right {
   width: 50%;
   height: 100%;
   display: flex;
 }
 .nav-right ul {
+  width: 100%;
   display: flex;
   gap: 10px;
   justify-content: end;
@@ -75,5 +74,31 @@ body {
   padding: 0 15px;
   display: flex;
   height: 100%;
-  font-weight: bold;
+  align-items: center;
+}
+
+.nav-right ul li:hover{
+  cursor: pointer;
+  background-color: palegreen;
+}
+
+.search {
+  display: flex;
+  height: 75%;
+  padding-left: 10px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  align-items: center;
+}
+.search input {
+  width: 75%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.search i {
+  width: 25%;
 }
