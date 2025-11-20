@@ -13,6 +13,14 @@ body {
   width: 100%;
   height: 100%;
   background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.contanier-width {
+  width: 87%;
+  margin: auto;
 }
 .navigation {
   width: 90%;
@@ -51,7 +59,7 @@ body {
   text-transform: uppercase;
   transition: all 0.5s ease;
 }
-.nav-left ul li:hover{
+.nav-left ul li:hover {
   cursor: pointer;
   background-color: aqua;
 }
@@ -77,7 +85,7 @@ body {
   align-items: center;
 }
 
-.nav-right ul li:hover{
+.nav-right ul li:hover {
   cursor: pointer;
   background-color: palegreen;
 }
@@ -101,4 +109,204 @@ body {
 
 .search i {
   width: 25%;
+}
+
+.nav-right ul li:hover:first-child {
+  background-color: transparent;
+}
+
+.hero-section {
+  height: 100%;
+  margin: auto;
+}
+.img-hero {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.btn-contanier {
+  position: absolute;
+  bottom: 13%;
+  left: 35%;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-contanier button {
+  padding: 15px 20px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: transform 0.5s ease-in-out;
+}
+
+.btn-contanier button:hover {
+  transform: translateY(-10px);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  cursor: pointer;
+}
+
+.brand {
+  height: 130px;
+  background-color: palegreen;
+  display: flex;
+}
+
+.brand-img {
+  width: 14.28%;
+  height: 100%;
+}
+.brand-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.life-style {
+  height: 550px;
+  display: flex;
+  gap: 1%;
+}
+
+.life-style div {
+  width: 32.66%;
+}
+
+.life-style div img {
+  width: 100%;
+  height: 100%;
+}
+
+.style {
+  height: 550px;
+  display: flex;
+  gap: 2%;
+  margin-top: 1.5%;
+}
+
+.style div {
+  width: 60%;
+}
+
+.style div img {
+  width: 100%;
+  height: 100%;
+}
+.main-section {
+  height: 455px;
+  background-color: navajowhite;
+  margin-top: 20px;
+}
+
+.main-section1 {
+  height: 455px;
+  background-color: navajowhite;
+  margin-top: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.main-cart {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  gap: 2%;
+}
+
+.cart {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.image-cart {
+  height: 70%;
+  width: 100%;
+  position: relative;
+}
+
+.image-cart img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dis {
+  position: absolute;
+  left: 0;
+  padding: 5px 10px;
+  background-color: red;
+  top: 10px;
+  left: 15px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.card-brand {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.cart-title {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cart-title-left {
+  display: block;
+}
+
+.cart-title-left div {
+  display: flex;
+  grid-area: 15px;
+  margin-bottom: bold;
+}
+
+.cart-title-left div span:first-child {
+  color: red;
+  font-weight: bold;
+}
+
+.cart-title-left div span:last-child {
+  text-decoration: line-through;
+  color: rgb(76, 76, 76);
+}
+
+.color {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.color li {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.color li:first-child {
+  background-color: red;
+}
+
+.color li:last-child {
+  background-color: black;
+}
+
+.line {
+  writing-mode: horizontal-tb;
 }

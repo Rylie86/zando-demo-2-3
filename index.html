@@ -5,10 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./zando.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
   </head>
   <body>
-   
+    <style>
+      html,
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+      }
+
+      swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+
     <nav class="nav-bar">
       <nav class="navigation">
         <div class="nav-left">
@@ -26,24 +59,184 @@
           />
         </div>
         <div class="nav-right">
-         
-            <ul><li>
+          <ul>
+            <li>
               <div class="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="search">
+                <input type="text" placeholder="search" />
               </div>
             </li>
-              <li><i class="fa-solid fa-heart"></i></li>
-              <li>
-                 <i class="fa-solid fa-cart-shopping"></i>
-              </li>
-              <li><i class="fa-solid fa-bell"></i></li>
-              <li>Login</li>
-              <li>Register</li>
-            </ul>
-          </div>
+            <li><i class="fa-solid fa-heart"></i></li>
+            <li>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+            <li><i class="fa-solid fa-bell"></i></li>
+            <li>Login</li>
+            <li>Register</li>
+          </ul>
         </div>
       </nav>
     </nav>
+
+    <section class="hero-section contanier-width">
+      <swiper-container class="mySwiper">
+        <swiper-slide>
+          <div class="img-hero">
+            <img
+              src="https://zandokh.com/image/catalog/banner/2025/ZANDO/November/Zando - Extra Sale_Main (2160x1066).png"
+              alt=""
+            />
+
+            <div class="btn-contanier">
+              <button>shop men</button>
+              <button>shop women</button>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div class="img-hero">
+            <img
+              src="https://zandokh.com/image/catalog/banner/2025/ZANDO/November/ZANDO 70 OFF Main (2160x1066).png"
+              alt=""
+            />
+            <div class="btn-contanier">
+              <button>shop men</button>
+              <button>shop women</button>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </section>
+
+    <div class="contanier-width brand">
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/ZandoNoBorder.jpg"
+          alt=""
+        />
+      </div>
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/Ten11NoBorder.jpg"
+          alt=""
+        />
+      </div>
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/RoutineNoBorder.jpg"
+          alt=""
+        />
+      </div>
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/GatoniNoBorder.jpg"
+          alt=""
+        />
+      </div>
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/logo/361/361NoBorder.jpg"
+          alt=""
+        />
+      </div>
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/SisburmaTextNoBorder.jpg"
+          alt=""
+        />
+      </div>
+      <div class="brand-img">
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Brand%20ICON/Update%20sep/PomeloTextNoBorder.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="contanier-width life-style">
+      <div>
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/lifestify.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/SportLife.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Update%20Sep/Smart%20Casual.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="contanier-width style">
+      <div>
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/Tops.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://zandokh.com/image/catalog/banner/2025/ZANDO/Category%20lifestyle,%20sportlife,%20smartcasual/Oct/Bottoms.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="contanier-width main-section">
+      <div class="contanier-width text">
+        <h1>Business Look, TEN11 Attitude ✨</h1>
+        <a href="">Shop more</a>
+      </div>
+
+      <div class="main-cart">
+        <swiper-container
+          class="mySwiper"
+          slides-per-view="4"
+          space-between="30"
+          navigation="true"
+        >
+          <swiper-slide>
+            <div class="cart">
+              <div class="dis">10%</div>
+              <div class="image-cart">
+                <img
+                  src="https://zandokh.com/image/cache/catalog/products/2025-05/22225031391/ZANDO2705202527715-cr-450x672.jpg"
+                  alt=""
+                />
+                <div class="card-brand">Ten11</div>
+              </div>
+
+              <div class="cart-title">
+                <span class="cart-title-left">
+                  <div>
+                    <span> US 9$.56 </span>
+                    <span>US $11.98</span>
+                  </div>
+                  <span>Asymmetric Embellished T-Shirt</span>
+                  <ul class="color">
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </span>
+                <span class="cart-title-right">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>Slide 2</swiper-slide>
+          <swiper-slide>Slide 3</swiper-slide>
+          <swiper-slide>Slide 4</swiper-slide>
+        </swiper-container>
+      </div>
+    </div>
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
