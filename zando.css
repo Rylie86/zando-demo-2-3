@@ -310,3 +310,51 @@ body {
 .line {
   writing-mode: horizontal-tb;
 }
+
+
+footer {
+  height: 300px;
+  display: flex;
+}
+
+footer>div {
+  width: 20%;
+  height: 84%;
+  margin-top: 50px;
+}
+
+.qr {
+
+  width: 10%;
+  height: 84%;
+  position: relative;
+  display: flex;
+}
+
+.qr img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.royalty {
+  width: 30%;
+  height: 84%;
+}
+
+.royalty span {
+  font-size: 16px;
+}
+
+.conect {
+  width: 10%;
+  height: 84%;
+  
+}
+
+.conect span{
+  font-size: 16px;
+  
+}
+
